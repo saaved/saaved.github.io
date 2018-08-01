@@ -153,6 +153,10 @@ a:active {
   height: 14px;
   background: url("../img/arrow.png") no-repeat; }
 
+.textStyle {
+  text-shadow: 2px 2px 4px #000000;
+}
+
 /* =========================
 
 			WORK 
