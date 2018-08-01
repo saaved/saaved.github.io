@@ -12,7 +12,10 @@
 
 body {
   font-family: 'Open Sans', sans-serif;
-  background: #f5f6f7;
+  
+  background: #2980B9;
+  background: -webkit-linear-gradient(to right, #b6fbff, #3873c6);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #b6fbff, #3873c6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: #f5f6f7;
   font-size: 20px;
   line-height: 36px;
@@ -132,9 +135,7 @@ a:active {
   margin-top: -90px; }
 
 #hero {
-  background: #2980B9;
-  background: -webkit-linear-gradient(to right, #b6fbff, #3873c6);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #b6fbff, #3873c6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  min-height: 800px;
  }
 
 #work {
